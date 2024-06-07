@@ -36,9 +36,9 @@ export const Header = () => {
           </div>
           <div
             className="border-md inline-flex h-10 items-center m-2 mr-10 justify-center cursor-pointer rounded-md border font-bold bg-black px-8 text-sm shadow-sm transition-colors text-white focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
-            onClick={() => window.location.href = 'http://localhost:8501'}
+            onClick={() => window.location.href = 'http://127.0.0.1:8081'}
           >
-            DockrGen
+            WholeMigrate
           </div>
         </div>
 

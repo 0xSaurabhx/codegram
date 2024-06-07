@@ -1,0 +1,2 @@
+from agency_swarm import set_openai_key
+set_openai_key("sk-proj-kBGggqUyzTVWGciGhh3mT3BlbkFJvQYgDIKoHMLSNmpUxef9")

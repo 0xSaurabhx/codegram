@@ -4,6 +4,28 @@
 
 Codegram is an advanced legacy code converter designed to transform VB, Delphi, and COBOL code into modern languages such as Java, C#, and Python. Our solution ensures lightning-fast conversion while maintaining code efficiency and readability. Codegram also provides integrated tools for debugging, code optimization, and code explanation to enhance the development experience.
 
+## 2 Types of Conversion
+
+- Single File Conversion.
+    ```bash
+    cd backend
+    python app.py
+    ```
+    In new terminal
+    ```bash
+    cd frontend
+    npm run dev
+    ```
+- Whole Folder Conversion.
+    Uses agents to convert whole codebase
+
+    ```bash
+    pip install autogenstudio
+    autogenstudio ui
+    ```
+
+
+
 ## Features
 
 - **Lightning-fast Conversion**: Converts large legacy code files to modern languages within milliseconds using advanced algorithms.
